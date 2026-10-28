@@ -20,12 +20,14 @@ const Career = () => {
       </div>
       <h3>Aug 2026 – Present</h3>
     </div>
-   <p>
-    • Joined Bizlyzer India Pvt. Ltd. (OmniXM) as a Software Trainee.<br/>
-    • Currently gaining familiarity with the company's products, workflows, and development environment.<br/>
-    • Learning the technology stack, coding standards, and software development processes followed by the team.<br/>
-    • Looking forward to contributing to enterprise-grade software solutions and expanding my technical expertise.
-  </p>
+   
+<p>
+  • Joined Bizlyzer India Pvt. Ltd. (OmniXM) as a Software Trainee, contributing to my professional growth in enterprise software development.<br/>
+  • Working with backend technologies, including C# and ASP.NET Core, to understand and develop scalable RESTful APIs and microservices.<br/>
+  • Gaining hands-on experience with database integration, application architecture, debugging, and performance optimization.<br/>
+  • Collaborating with the development team to understand real-world engineering practices and build reliable, maintainable software solutions.
+</p>
+
   </div>
 
   {/* SmartFRS */}
