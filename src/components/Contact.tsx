@@ -18,10 +18,19 @@ const Contact = () => {
               </a>
             </p>
 
+            <h4>Phone</h4>
+            <p>
+              <a href="tel:+917839424779" data-cursor="disable">
+                +91-7839424779
+              </a>
+            </p>
+
             <h4>Education</h4>
             <p>
-              B.Tech – Computer Science & Engineering <br />
-              Dronacharya Group of Institutions (2022 – 2026)
+              B.Tech – Computer Science and Engineering <br />
+              Dronacharya Group of Institutions, Greater Noida (2022 – 2026)
+              <br />
+              CGPA 8.23
             </p>
           </div>
 
@@ -39,7 +48,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/irshu2005"
+              href="https://www.linkedin.com/in/irshad-ahamad-a5b902255/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
