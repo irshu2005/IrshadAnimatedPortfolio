@@ -41,6 +41,73 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <Landing>{!isDesktopView && children}</Landing>
             <About />
             <WhatIDo />
+            <div className="career-section section-container" id="technical-skills">
+              <div className="career-container">
+                <h2>Technical Skills</h2>
+                <div className="career-info">
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Backend</h4>
+                      </div>
+                    </div>
+                    <p>C#, ASP.NET Core, Java(Core, J2EE), SpringBoot, REST API</p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Databases/ORM</h4>
+                      </div>
+                    </div>
+                    <p>
+                      SQL Server, DBeaver, BigQuery, StarRocks, MySQL, Redis, MongoDB, Firebase
+                    </p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Frontend</h4>
+                      </div>
+                    </div>
+                    <p>React, HTML, CSS, JavaScript</p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Languages</h4>
+                      </div>
+                    </div>
+                    <p>C#, Java, JavaScript, SQL</p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Architecture</h4>
+                      </div>
+                    </div>
+                    <p>Microservices, RESTful APIs, CQRS</p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>Technologies/Frameworks</h4>
+                      </div>
+                    </div>
+                    <p>
+                      FastAPI, Spring WebFlux, Hibernate, Apache Tomcat, Swagger
+                    </p>
+                  </div>
+                  <div className="career-info-box">
+                    <div className="career-info-in">
+                      <div className="career-role">
+                        <h4>DevOps/Tools</h4>
+                      </div>
+                    </div>
+                    <p>Docker, Azure DevOps, Git, GitHub, Postman, Bruno</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             <Career />
             <Work />
             {isDesktopView && (
@@ -59,32 +126,12 @@ const MainContainer = ({ children }: PropsWithChildren) => {
                   <div className="career-info-box">
                     <div className="career-info-in">
                       <div className="career-role">
-                        <h4>B.Tech – Computer Science &amp; Engineering</h4>
-                        <h5>Dronacharya Group of Institutions</h5>
+                        <h4>B.Tech – Computer Science and Engineering</h4>
+                        <h5>Dronacharya Group of Institutions, Greater Noida</h5>
                       </div>
                       <h3>2022 – 2026</h3>
                     </div>
-                    <p>CGPA: 8.1 / 10</p>
-                  </div>
-                  {/* XII */}
-                  <div className="career-info-box">
-                    <div className="career-info-in">
-                      <div className="career-role">
-                        <h4>XII (UP Board)</h4>
-                      </div>
-                      <h3>2022</h3>
-                    </div>
-                    <p>81.2%</p>
-                  </div>
-                  {/* X */}
-                  <div className="career-info-box">
-                    <div className="career-info-in">
-                      <div className="career-role">
-                        <h4>X (UP Board)</h4>
-                      </div>
-                      <h3>2020</h3>
-                    </div>
-                    <p>86.16%</p>
+                    <p>CGPA 8.23 · Greater Noida, Uttar Pradesh</p>
                   </div>
                 </div>
               </div>

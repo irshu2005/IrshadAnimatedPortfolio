@@ -88,15 +88,13 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>FRONTEND</h3>
-              <h4>Modern Web Development</h4>
-              <p>
-                Building responsive and interactive user interfaces using React.js, HTML5, CSS3, and JavaScript. Passionate about creating seamless user experiences and pixel-perfect designs.
-              </p>
+              <h4>React, HTML, CSS, JavaScript</h4>
+              <p>React, HTML, CSS, and JavaScript.</p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">React.js</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">React</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">CSS</div>
                 <div className="what-tags">JavaScript</div>
               </div>
               <div className="what-arrow"></div>
@@ -122,20 +120,17 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BACKEND</h3>
-              <h4>API & Server-Side Development</h4>
+              <h4>C#, ASP.NET Core, Java, SpringBoot</h4>
               <p>
-                Designing and developing scalable backend services using Java, Spring Boot, Spring WebFlux, Node.js, REST APIs, and MQTT Protocol. Experienced in integrating databases and real-time communication.
+                C#, ASP.NET Core, Java(Core, J2EE), SpringBoot, and REST API.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Java</div>
-                <div className="what-tags">Spring Boot</div>
-                <div className="what-tags">Spring WebFlux</div>
-                <div className="what-tags">Node.js</div>
+                <div className="what-tags">C#</div>
+                <div className="what-tags">ASP.NET Core</div>
+                <div className="what-tags">Java(Core, J2EE)</div>
+                <div className="what-tags">SpringBoot</div>
                 <div className="what-tags">REST API</div>
-                <div className="what-tags">MQTT Protocol</div>
-                <div className="what-tags">MySQL</div>
-                <div className="what-tags">MongoDB</div>
               </div>
               <div className="what-arrow"></div>
             </div>

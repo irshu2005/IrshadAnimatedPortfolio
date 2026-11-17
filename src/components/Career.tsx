@@ -9,65 +9,62 @@ const Career = () => {
           <br /> experience
         </h2>
 
-       <div className="career-info">
+        <div className="career-info">
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Software Trainee</h4>
+                <h5>Bizlyzer India Pvt. Ltd. (OmniXM) — On-site</h5>
+              </div>
+              <h3>Aug 2026 – Present</h3>
+            </div>
+            <p>
+              • Developed and optimized backend services for CXM, the company&apos;s core product, using ASP.NET Core, C#, Entity Framework Core, Dapper, and MySQL/SQL Server.
+              <br />
+              • Fixed N+1 query patterns and in-memory data loads by moving filtering, search, and pagination logic to the database layer, cutting unnecessary round-trips.
+              <br />
+              • Debugged issues across a microservices architecture by tracing requests through the API gateway, backend services, and database using logging and query analysis.
+              <br />
+              • Built backend services with FastAPI (Python) for AI/data-labeling workflows, including request handling, prompt processing, and API integrations.
+            </p>
+          </div>
 
-  {/* Bizlyzer India */}
-  <div className="career-info-box">
-    <div className="career-info-in">
-      <div className="career-role">
-        <h4>Software Trainee</h4>
-        <h5>Bizlyzer India Pvt. Ltd. (OmniXM) — Pune, Maharashtra</h5>
-      </div>
-      <h3>Aug 2026 – Present</h3>
-    </div>
-   
-<p>
-  • Joined Bizlyzer India Pvt. Ltd. (OmniXM) as a Software Trainee, contributing to my professional growth in enterprise software development.<br/>
-  • Working with backend technologies, including C# and ASP.NET Core, to understand and develop scalable RESTful APIs and microservices.<br/>
-  • Gaining hands-on experience with database integration, application architecture, debugging, and performance optimization.<br/>
-  • Collaborating with the development team to understand real-world engineering practices and build reliable, maintainable software solutions.
-</p>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Backend Developer Intern</h4>
+                <h5>SmartFRS Solutions Pvt. Ltd. — On-site</h5>
+              </div>
+              <h3>Feb 2026 – Jul 2026</h3>
+            </div>
+            <p>
+              • Developed RESTful APIs using Java, Spring Boot, and Spring WebFlux, applying reactive programming (Mono/Flux) for high-concurrency services.
+              <br />
+              • Integrated MongoDB and Redis for efficient data storage, caching, and improved application performance.
+              <br />
+              • Created API documentation, BRDs, and technical specifications, collaborating with frontend and QA teams for smooth feature delivery.
+            </p>
+          </div>
 
-  </div>
-
-  {/* SmartFRS */}
-  <div className="career-info-box">
-    <div className="career-info-in">
-      <div className="career-role">
-        <h4>Backend Developer Intern</h4>
-        <h5>SmartFRS Solutions Pvt. Ltd. — Greater Noida, Uttar Pradesh</h5>
-      </div>
-      <h3>Feb 2026 – Jul 2026</h3>
-    </div>
-    <p>
-      • Developed scalable RESTful APIs using Java, Spring Boot, and Spring WebFlux.<br/>
-      • Implemented reactive programming with Mono and Flux for non-blocking, high-performance applications.<br/>
-      • Integrated MongoDB and Redis to optimize data storage and application performance.<br/>
-      • Collaborated with frontend and QA teams for seamless API integration and bug resolution.<br/>
-      • Prepared API documentation, BRDs, and technical specifications for development and testing.<br/>
-      • Improved backend performance through debugging, optimization, and code enhancements.
-    </p>
-  </div>
-
-  {/* IBM */}
-  <div className="career-info-box">
-    <div className="career-info-in">
-      <div className="career-role">
-        <h4>Full Stack Developer Intern</h4>
-        <h5>IBM Career Education</h5>
-      </div>
-      <h3>Aug 2025 – Sep 2025</h3>
-    </div>
-    <p>
-      • Built a full-stack E-Commerce application using the MERN stack.<br/>
-      • Developed RESTful APIs and integrated them with React.js frontend.<br/>
-      • Implemented secure authentication and authorization using JWT.<br/>
-      • Designed MongoDB database schemas and implemented CRUD operations.<br/>
-      • Applied modern web development practices to build responsive and maintainable applications.
-    </p>
-  </div>
-
-</div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Full Stack Developer Intern</h4>
+                <h5>IBM — Remote</h5>
+              </div>
+              <h3>Aug 2025 – Sep 2025</h3>
+            </div>
+            <p>
+              • Built a full-stack E-Commerce web application using the MERN stack.
+              <br />
+              • Developed RESTful APIs and integrated them with the React.js frontend.
+              <br />
+              • Implemented secure authentication and authorization using JWT and bcrypt.
+              <br />
+              • Designed MongoDB database schemas and implemented CRUD operations.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

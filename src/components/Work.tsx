@@ -6,17 +6,11 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 const projects = [
   {
     title: "Smart Inventory Management System",
-    category: "Inventory Management",
-    tools: "Spring Boot, Spring WebFlux, MQTT, REST API, MongoDB, MySQL",
+    category: "Nov 2024",
+    tools:
+      "JAVA, Hibernate, Swing, MySQL. Java system with Hibernate and MySQL for CRUD, stock levels, and product history. Email and SMS alerts for low stock, expired products, and inventory updates. Swing GUI with secure user authentication.",
     image: "/images/sapphire.png",
-    link: "https://github.com/irshu2005/Smart-Inventory-MS"
-  },
-  {
-    title: "Parking Lot Management System",
-    category: "Parking Management",
-    tools: "Java, Spring Boot, REST API, MySQL, MongoDB",
-    image: "/images/bond.png",
-    link: "https://github.com/irshu2005/Parking-Lot-Management-System"
+    link: "https://github.com/irshu2005/Smart-Inventory-MS",
   },
 ];
 
